@@ -19,4 +19,9 @@ struct TestCICDWithBitriseTests {
         #expect(2 + 2 == 4)
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.
     }
+    
+    @Test func example3() async throws {
+        #expect(2 + 2 == 4)
+        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+    }
 }
